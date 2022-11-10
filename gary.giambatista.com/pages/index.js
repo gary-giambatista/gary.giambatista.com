@@ -6,18 +6,16 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
 	return (
 		<div>
-			<header>
-				<Navbar />
-			</header>
+			<Navbar />
 
 			<hero></hero>
 			{/* <Hero /> */}
 
 			<main></main>
-			{/* <Bio /> */}
+			{/* <About /> */}
 
 			<section></section>
-			{/* <Portfolio /> */}
+			{/* <Projects /> */}
 
 			<section></section>
 			{/* <Skills /> */}
