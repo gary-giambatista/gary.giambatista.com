@@ -21,22 +21,22 @@ export default function Navbar() {
 			>
 				<SocialIcon
 					url="https://github.com/gary-giambatista"
-					fgColor="grey"
+					fgColor="white"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://www.linkedin.com/in/gary-giambatista-85132ba7/"
-					fgColor="grey"
+					fgColor="white"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://www.instagram.com/garygiambatista/"
-					fgColor="grey"
+					fgColor="white"
 					bgColor="transparent"
 				/>
 				<SocialIcon
 					url="https://www.facebook.com/gary.giambatista"
-					fgColor="grey"
+					fgColor="white"
 					bgColor="transparent"
 				/>
 			</motion.div>
@@ -53,15 +53,15 @@ export default function Navbar() {
 					scale: 1,
 				}}
 				transition={{ duration: 1 }}
-				className="flex flex-row items-center text-gray-300 cursor-pointer"
+				className="flex flex-row items-center text-white cursor-pointer"
 			>
 				<SocialIcon
 					className="cursor-pointer"
 					network="email"
-					fgColor="grey"
+					fgColor="white"
 					bgColor="transparent"
 				/>
-				<p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+				<p className="uppercase hidden md:inline-flex text-sm text-white">
 					{" "}
 					Contact Me
 				</p>

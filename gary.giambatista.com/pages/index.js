@@ -1,15 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
+import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<div>
+		<div className="bg-[#15202b] text-white h-screen snap-mandatory snap-y overflow-scroll z-0">
 			<Navbar />
 
-			<hero></hero>
-			{/* <Hero /> */}
+			<section id="hero" className="snap-center">
+				<Hero />
+			</section>
 
 			<main></main>
 			{/* <About /> */}
