@@ -8,14 +8,14 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 export default function Hero() {
 	const [text, count] = useTypewriter({
-		words: ["Hi, my name is Gary"],
+		words: ["Hi, my name is Gary  "],
 
 		loop: 1,
 	});
 
 	const [backgroundText, countt] = useTypewriter({
 		words: [
-			"My dream is to build applications that change the world positively",
+			"My dream is to build applications that change the world positively  ",
 		],
 		loop: 1,
 		delaySpeed: 3000,
@@ -35,7 +35,7 @@ export default function Hero() {
 			className="h-screen flex flex-col space-y-8 items-center  justify-center overflow-hidden text-center"
 		>
 			<Image
-				className="relative rounded-full h-32 w-32 mx-auto object-cover sm:h-56 sm:w-56"
+				className="relative rounded-full h-32 w-32 mx-auto object-cover sm:h-56 sm:w-56 xl:rounded-lg"
 				src={DeerPicture}
 				alt="/"
 			/>
@@ -44,7 +44,7 @@ export default function Hero() {
 			</h1>
 			<div>
 				<h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold px-10">
-					<span className="mr-3">{text}</span>
+					<span>{text}</span>
 					<Cursor cursorColor="#1da1f2" />
 				</h1>
 			</div>
