@@ -3,6 +3,8 @@ import Image from "next/image";
 import About from "../components/About";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -18,11 +20,13 @@ export default function Home() {
 				<About />
 			</section>
 
-			<section></section>
-			{/* <Projects /> */}
+			<section id="skills" className="snap-start">
+				<Skills />
+			</section>
 
-			<section></section>
-			{/* <Skills /> */}
+			<section id="projects" className="snap-start">
+				<Projects />
+			</section>
 
 			<section></section>
 			{/* <Contact /> */}
