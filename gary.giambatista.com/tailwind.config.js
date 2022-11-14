@@ -7,6 +7,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {},
+		fontFamily: {
+			windsong: ["WindSong", "cursive"],
+		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar")],
 };

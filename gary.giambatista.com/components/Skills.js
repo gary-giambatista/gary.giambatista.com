@@ -5,6 +5,7 @@ import gitImage from "../public/skills/git.png";
 import githubImage from "../public/skills/github.png";
 import htmlImage from "../public/skills/html.png";
 import javascriptImage from "../public/skills/javascript.png";
+import nextImage from "../public/skills/nextjs.png";
 import nodeImage from "../public/skills/node.png";
 import reactImage from "../public/skills/react.png";
 import supabaseImage from "../public/skills/supabase-logo.png";
@@ -44,6 +45,7 @@ export default function Skills() {
 				<Skill text={"Tailwind"} directionLeft={false} image={taiwindImage} />
 				<Skill text={"Supabase"} directionLeft={false} image={supabaseImage} />
 				<Skill text={"Node.js"} directionLeft={true} image={nodeImage} />
+				<Skill text={"Next.js"} directionLeft={true} image={nextImage} />
 			</div>
 		</motion.div>
 	);

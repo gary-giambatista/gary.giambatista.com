@@ -18,7 +18,7 @@ export default function About() {
 			transition={{ duration: 0.6 }}
 			className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
 		>
-			<h3 className="absolute top-24 md:top-36 uppercase tracking-[20px] text-[#8899ac] text-2xl">
+			<h3 className="absolute top-20 md:top-36 uppercase tracking-[20px] text-[#8899ac] text-2xl">
 				{" "}
 				About{" "}
 			</h3>
@@ -43,8 +43,8 @@ export default function About() {
 						an English teacher and got to teach many children while learning
 						about a new culture and way of life. While life was amazing, I
 						sought a path to have a larger impact on the world. That path led me
-						to fostering many ideas to create things, and there is no better
-						tool to create them with than software.
+						to fostering many ideas to create things, and software is the key to
+						making my ideas into real life utilties.
 					</p>
 				</div>
 			</div>

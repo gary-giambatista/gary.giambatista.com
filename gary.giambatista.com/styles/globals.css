@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,10 @@
 @layer components {
 	.heroButton {
 		@apply px-3 py-2 mx-1 sm:px-5 sm:mx-2 sm:text-sm border border-[#1da1f2] rounded-full uppercase text-xs tracking-widest transition-all hover:bg-[#1da1f2] hover:border-white;
+	}
+
+	.contactInput {
+		@apply outline-none bg-[#bad9ec] rounded-lg border-b-4 px-6 py-4 border-[#FFFFFF] text-[#192734] placeholder-[#192734] transition-all focus:border-[#1da1f2] focus:text-[#000000] hover:border-[#1da1f2];
 	}
 	.hr {
 		width: 80%;
@@ -22,30 +28,3 @@
 		}
 	}
 }
-
-/* html,
-body {
-	padding: 0;
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-		color-scheme: dark;
-	}
-	body {
-		color: white;
-		background: black;
-	}
-} */

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 
@@ -40,7 +41,6 @@ export default function Navbar() {
 					bgColor="transparent"
 				/>
 			</motion.div>
-
 			<motion.div
 				initial={{
 					x: 200,
@@ -60,11 +60,15 @@ export default function Navbar() {
 					network="email"
 					fgColor="white"
 					bgColor="transparent"
+					url="#contact"
 				/>
-				<p className="uppercase hidden md:inline-flex text-sm text-white">
+				<a
+					href="#contact"
+					className="uppercase hidden md:inline-flex text-sm text-white"
+				>
 					{" "}
 					Contact Me
-				</p>
+				</a>
 			</motion.div>
 		</header>
 	);
