@@ -64,25 +64,12 @@ export default function Hero() {
 				</Link>
 			</div>
 			<div className="text-[#22303c] text-2xl font-semibold px-10 md:text-6xl justify-end md:pt-8">
-				<motion.div
-					initial={{
-						x: -200,
-						opacity: 0,
-						scale: 0,
-					}}
-					animate={{
-						x: 0,
-						opacity: 1,
-						scale: 1,
-					}}
-					transition={{ delay: 1, duration: 1 }}
-					className="font-windsong"
-				>
+				<div className="font-windsong">
 					<span className="font-windsong hover:animate-pulse">
-						{backgroundText}
+						My dream is to build a better world with software
 					</span>
 					{/* <Cursor cursorColor="#1da1f2" /> */}
-				</motion.div>
+				</div>
 			</div>
 		</motion.div>
 	);

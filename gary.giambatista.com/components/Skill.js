@@ -18,7 +18,7 @@ export default function Skill({ text, directionLeft, image }) {
 			<Image
 				className=" object-fill w-16 h-16 md:w-32 md:h-32 lg:w-48 lg:h-48 filter group-hover:grayscale group-hover:opacity-60 transition duration-300 ease-in-out "
 				src={image}
-				alt="/"
+				alt={text}
 			/>
 			<div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out  w-16 h-16 md:w-32 md:h-32 lg:w-48 lg:h-48">
 				<div className="flex items-center justify-center h-full">

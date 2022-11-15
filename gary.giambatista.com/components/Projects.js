@@ -39,7 +39,7 @@ export default function Projects() {
 							During my software engineering studies, I found a need to organize
 							many different reference websites into groups. This gave birth to
 							the idea of creating a modular study list in which I could store
-							various links with descriptions about them in one place. It's
+							various links with descriptions about them in one place. It&apos;s
 							truly the one tab to rule them all, a master tab to organize all
 							studying in one place. Built with Next.js and SupaBase.
 						</p>
