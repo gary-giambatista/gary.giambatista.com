@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import studyListPicture from "../public/StudyListPicture.JPG";
 
@@ -25,11 +26,13 @@ export default function Projects() {
 			<div className="relative w-full  z-10">
 				<div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5 md:p-20 h-screen">
 					{/* Enable these above for horizontal scrolling: flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory */}
-					<Image
-						className="rounded-md object-scale-down border border-1-zinc-300  w-[862px] z-15"
-						src={studyListPicture}
-						alt="Study list project"
-					/>
+					<Link href="https://studylistv2-git-studygroupv10-gary-giambatista.vercel.app/">
+						<Image
+							className="rounded-md object-scale-down border border-1-zinc-300  w-[862px] z-15"
+							src={studyListPicture}
+							alt="Study list project"
+						/>
+					</Link>
 					<div className="space-y-10 px-0 md:px-10 max-w-6xl">
 						<h4 className="text-4xl font-semibold text-center">
 							<span className="underline decoration-[#1da1f2]">Study List</span>
