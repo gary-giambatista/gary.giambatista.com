@@ -35,7 +35,7 @@ export default function Hero() {
 		>
 			<Image
 				priority
-				className="relative rounded-full h-32 w-32 mx-auto object-cover sm:h-56 sm:w-56 xl:rounded-lg"
+				className="relative rounded-full h-32 w-32 mx-auto object-cover sm:h-56 sm:w-56 xl:rounded-lg hover:grayscale hover:scale-110 transition ease-in-out delay-50"
 				src={DeerPicture}
 				alt="profile picture"
 			/>

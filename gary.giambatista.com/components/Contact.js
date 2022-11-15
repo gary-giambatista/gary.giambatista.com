@@ -76,7 +76,7 @@ export default function Contact() {
 					/>
 					<button
 						type="submit"
-						className="bg-[#1da1f2] border-b-4 border-[#1da1f2] py-5 px-10 rounded-md text-white font-bold text-lg hover:scale-110 hover:border-white"
+						className="bg-[#1da1f2] border-b-4 border-[#1da1f2] py-5 px-10 rounded-md text-white font-bold text-lg hover:scale-105 hover:border-white transition ease-in-out delay-50"
 					>
 						Submit
 					</button>

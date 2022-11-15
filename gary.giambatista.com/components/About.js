@@ -25,7 +25,7 @@ export default function About() {
 
 			<div className="flex flex-col space-y-44 text-center md:text-left md:flex-row justify-evenly items-center">
 				<Image
-					className="-mb-40 md:mob-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-65 md:h-95 xl:w-[500px] xl:h-[600px]"
+					className="-mb-40 md:mob-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-65 md:h-95 xl:w-[500px] xl:h-[600px] hover:grayscale hover:scale-110 transition ease-in-out delay-50"
 					src={StatuePicture}
 					alt="/"
 				/>

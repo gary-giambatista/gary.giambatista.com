@@ -24,21 +24,25 @@ export default function Navbar() {
 					url="https://github.com/gary-giambatista"
 					fgColor="white"
 					bgColor="transparent"
+					className="hover:scale-110"
 				/>
 				<SocialIcon
 					url="https://www.linkedin.com/in/gary-giambatista-85132ba7/"
 					fgColor="white"
 					bgColor="transparent"
+					className="hover:scale-110"
 				/>
 				<SocialIcon
 					url="https://www.instagram.com/garygiambatista/"
 					fgColor="white"
 					bgColor="transparent"
+					className="hover:scale-110"
 				/>
 				<SocialIcon
 					url="https://www.facebook.com/gary.giambatista"
 					fgColor="white"
 					bgColor="transparent"
+					className="hover:scale-110"
 				/>
 			</motion.div>
 			<motion.div
@@ -56,7 +60,7 @@ export default function Navbar() {
 				className="flex flex-row items-center text-white cursor-pointer"
 			>
 				<SocialIcon
-					className="cursor-pointer"
+					className="cursor-pointer hover:scale-110"
 					network="email"
 					fgColor="white"
 					bgColor="transparent"
