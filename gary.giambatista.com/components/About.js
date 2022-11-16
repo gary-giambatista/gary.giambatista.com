@@ -28,6 +28,7 @@ export default function About() {
 					className="-mb-40 md:mob-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-65 md:h-95 xl:w-[500px] xl:h-[600px] hover:grayscale hover:scale-110 transition ease-in-out delay-50"
 					src={StatuePicture}
 					alt="/"
+					title="NYC, 2022"
 				/>
 				<div className="px-0 md:px-10">
 					<h4 className="text-4xl font-semibold">
@@ -43,8 +44,8 @@ export default function About() {
 						an English teacher and got to teach many children while learning
 						about a new culture and way of life. While life was amazing, I
 						sought a path to have a larger impact on the world. That path led me
-						to fostering many ideas to create things, and software is the key to
-						making my ideas into real life utilties.
+						to fostering many ideas to create things, and software has become my
+						tool of choice for making my ideas into real life utilties.
 					</p>
 				</div>
 			</div>

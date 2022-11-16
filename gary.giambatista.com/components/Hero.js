@@ -38,7 +38,9 @@ export default function Hero() {
 				className="relative rounded-full h-32 w-32 mx-auto object-cover sm:h-56 sm:w-56 xl:rounded-lg hover:grayscale hover:scale-110 transition ease-in-out delay-50"
 				src={DeerPicture}
 				alt="profile picture"
+				title="Nara, Japan 2019"
 			/>
+
 			<h1 className="text-xs uppercase text-[#8899A6] lg:pb-2 tracking-[10px] sm:tracking-[15px] md:text-lg">
 				Software Engineer
 			</h1>

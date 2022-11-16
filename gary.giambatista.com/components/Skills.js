@@ -27,7 +27,7 @@ export default function Skills() {
 			transition={{ duration: 1 }}
 			className="flex relative flex-col text-center md:text-left xl:flew-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
 		>
-			<h3 className="absolute top-40 md:top-36 uppercase tracking-[20px] text-[#8899ac] text-2xl">
+			<h3 className="absolute top-40 md:top-20 xl:top-32 uppercase tracking-[20px] text-[#8899ac] text-2xl">
 				Skills
 			</h3>
 

@@ -19,7 +19,7 @@ export default function Projects() {
 			transition={{ duration: 0.6 }}
 			className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0"
 		>
-			<h3 className="absolute top-24 md:top-28 uppercase tracking-[20px] text-[#8899ac] text-2xl z-20">
+			<h3 className="absolute top-20 uppercase tracking-[20px] text-[#8899ac] text-2xl z-20">
 				Projects
 			</h3>
 
@@ -28,9 +28,10 @@ export default function Projects() {
 					{/* Enable these above for horizontal scrolling: flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory */}
 					<Link href="https://studylistv2-git-studygroupv10-gary-giambatista.vercel.app/">
 						<Image
-							className="rounded-md object-scale-down border border-1-zinc-300  w-[862px] z-15 hover:grayscale hover:scale-110 transition ease-in-out delay-50"
+							className="rounded-md object-scale-down border border-1-zinc-300  sm:w-[500px] lg:w-[600px] xl:w-[862px] z-15 hover:grayscale hover:scale-105 transition ease-in-out delay-50"
 							src={studyListPicture}
 							alt="Study list project"
+							title="Try it out!"
 						/>
 					</Link>
 					<div className="space-y-10 px-0 md:px-10 max-w-6xl">

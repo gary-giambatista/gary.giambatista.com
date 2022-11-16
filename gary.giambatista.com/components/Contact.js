@@ -22,7 +22,7 @@ export default function Contact() {
 			transition={{ duration: 0.6 }}
 			className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
 		>
-			<h3 className="opacity-0 md:opacity-100 absolute top-24 sm:top-36 uppercase tracking-[20px] text-[#8899ac] text-2xl z-20">
+			<h3 className="opacity-0 xl:opacity-100 absolute top-24  uppercase tracking-[20px] text-[#8899ac] text-2xl z-20">
 				Contact
 			</h3>
 			<div className="flex flex-col space-y-10">
@@ -33,7 +33,7 @@ export default function Contact() {
 				<div className="space-y-10">
 					<div className="flex items-center justify-center space-x-5">
 						<PhoneIcon className="text-[#1da1f2] h-7 sm:w-7 animate-pulse" />
-						<p className="text-2xl">+1 973-862-1294</p>
+						<p className="text-2xl">+1 862-977-1294</p>
 					</div>
 					<div className="flex items-center justify-center space-x-5 ">
 						<EnvelopeIcon className="text-[#1da1f2] h-7 w-7 animate-pulse" />
