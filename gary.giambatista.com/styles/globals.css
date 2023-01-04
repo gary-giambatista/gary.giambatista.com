@@ -12,6 +12,10 @@
 	.contactInput {
 		@apply outline-none bg-[#bad9ec] rounded-lg border-b-4 px-6 py-4 border-[#FFFFFF] text-[#192734] placeholder-[#192734] transition-all focus:border-[#1da1f2] focus:text-[#000000] hover:border-[#1da1f2];
 	}
+	.dropShadow {
+		box-shadow: black 3px 0px 5px;
+	}
+
 	.hr {
 		width: 80%;
 		height: 2px;

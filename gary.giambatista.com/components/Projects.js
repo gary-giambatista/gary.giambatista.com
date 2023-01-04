@@ -11,9 +11,16 @@ export default function Projects() {
 		{
 			title: "Study List",
 			description:
-				"A modular and collapsbile study list, built with Next.js and SupaBase. Sign in with Google, or sign up with an email. Study list provides a way to take a collection of study resources from across the internet and put them all in 1 place, in 1 tab. It was built to centralize browser sessions and minimize tab overload to keep productivity up. It includes a built in Pomodoro timer.",
+				"A modular and collapsibile study list, built with Next.js and SupaBase. Sign in with Google, or sign up with an email. Study List provides a way to take a collection of study resources from across the internet and put them all in 1 place, in 1 tab. It was built to centralize browser sessions and minimize tab overload to keep productivity up. It includes a built in Pomodoro timer.",
 			image: studyListPicture,
 			link: "https://studylistv2-git-studygroupv10-gary-giambatista.vercel.app/",
+		},
+		{
+			title: "Esteem Demo",
+			description:
+				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with others whom share a different perspective than their own. Built with React Native, Expo, and Firebase.",
+			image: aiArtGeneratorPicture,
+			link: "https://gary-giambatista.com/EsteemDemo",
 		},
 		{
 			title: "Ai Art Generator",
@@ -99,7 +106,7 @@ export default function Projects() {
 							<button
 								className="heroButton"
 								onClick={() => {
-									sideScroll(contentWrapper.current, 1, 100, -5000);
+									sideScroll(contentWrapper.current, 1, 100, -2000);
 								}}
 							>
 								Prev
@@ -107,7 +114,7 @@ export default function Projects() {
 							<button
 								className="heroButton"
 								onClick={() => {
-									sideScroll(contentWrapper.current, 1, 100, 5000);
+									sideScroll(contentWrapper.current, 1, 100, 2000);
 								}}
 							>
 								Next
