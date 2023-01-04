@@ -4,23 +4,24 @@ import Link from "next/link";
 import { list } from "postcss";
 import React from "react";
 import aiArtGeneratorPicture from "../public/Ai-art-generator-site.PNG";
+import esteemDemoPreview from "../public/esteemDemoPreview.PNG";
 import studyListPicture from "../public/StudyListPicture.JPG";
 
 export default function Projects() {
 	const projects = [
+		{
+			title: "Esteem Demo",
+			description:
+				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with others whom share a different perspective than their own. Built with React Native, Expo, and Firebase.",
+			image: esteemDemoPreview,
+			link: "https://gary-giambatista.com/EsteemDemo",
+		},
 		{
 			title: "Study List",
 			description:
 				"A modular and collapsibile study list, built with Next.js and SupaBase. Sign in with Google, or sign up with an email. Study List provides a way to take a collection of study resources from across the internet and put them all in 1 place, in 1 tab. It was built to centralize browser sessions and minimize tab overload to keep productivity up. It includes a built in Pomodoro timer.",
 			image: studyListPicture,
 			link: "https://studylistv2-git-studygroupv10-gary-giambatista.vercel.app/",
-		},
-		{
-			title: "Esteem Demo",
-			description:
-				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with others whom share a different perspective than their own. Built with React Native, Expo, and Firebase.",
-			image: aiArtGeneratorPicture,
-			link: "https://gary-giambatista.com/EsteemDemo",
 		},
 		{
 			title: "Ai Art Generator",
@@ -102,7 +103,7 @@ export default function Projects() {
 								{project.description}
 							</p>
 						</div>
-						<div className="hidden md:flex flex-row gap-5">
+						<div className="hidden xl:flex flex-row gap-5">
 							<button
 								className="heroButton"
 								onClick={() => {
