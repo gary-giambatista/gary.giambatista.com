@@ -6,13 +6,14 @@ import React from "react";
 import aiArtGeneratorPicture from "../public/Ai-art-generator-site.PNG";
 import esteemDemoPreview from "../public/esteemDemoPreview.PNG";
 import studyListPicture from "../public/StudyListPicture.JPG";
+import twitterDemoPic from "../public/Twitter-demo-pic3.PNG";
 
 export default function Projects() {
 	const projects = [
 		{
 			title: "Esteem Demo",
 			description:
-				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with others whom share a different perspective than their own. Built with React Native, Expo, and Firebase.",
+				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with those who share a different perspective than their own. Built with React Native, Expo, and Firebase.",
 			image: esteemDemoPreview,
 			link: "https://gary-giambatista.com/EsteemDemo",
 		},
@@ -24,9 +25,16 @@ export default function Projects() {
 			link: "https://studylistv2-git-studygroupv10-gary-giambatista.vercel.app/",
 		},
 		{
+			title: "Twitter Clone",
+			description:
+				"Built with Next.js, TypeScript, and Sanity. A functional clone of Twitter and it's basic features. Login with your real Twitter account, post tweets including pictures, and comment on tweets.",
+			image: twitterDemoPic,
+			link: "https://twitter-clone-gold-rho.vercel.app/",
+		},
+		{
 			title: "Ai Art Generator",
 			description:
-				"A user interface for utilizing OpenAI's Dall-E 2 API. Users are required to input an API key, image description, number of images, and size of images and they will quickly receive AI generated images matching their criteria. Built entirely with React and vanilla CSS. The highlight of the project is the logic controlling the user experience.",
+				"A user interface for utilizing OpenAI's Dall-E 2 API. First enter your API key, then your image(s) description. Next, select the desired number and size of the image(s) and click submit. Lastly, you will quickly receive your unique AI generated images. Built entirely with React and vanilla CSS.",
 			image: aiArtGeneratorPicture,
 			link: "https://ai-art-generator-pi.vercel.app/",
 		},
@@ -58,10 +66,10 @@ export default function Projects() {
 			<h3 className="absolute top-20 uppercase tracking-[20px] text-[#8899ac] text-2xl z-20">
 				Projects
 			</h3>
-
+			{/* adjust scroll bar for devices so it is seen below sm:scrollbar */}
 			<div
 				ref={contentWrapper}
-				className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 sm:scrollbar scrollbar-track-[#22303c] scrollbar-thumb-[#8899ac] scrollbar-thin"
+				className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20  scrollbar-track-[#22303c] scrollbar-thumb-[#8899ac] scrollbar"
 			>
 				{projects.map((project, index) => (
 					<div

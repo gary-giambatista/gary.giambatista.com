@@ -10,6 +10,7 @@ import javascriptImage from "../public/skills/javascript.png";
 import nextImage from "../public/skills/nextjs.png";
 import nodeImage from "../public/skills/node.png";
 import reactImage from "../public/skills/react.png";
+import sanityLogo from "../public/skills/sanityLogo.png";
 import supabaseImage from "../public/skills/supabase-logo.png";
 import taiwindImage from "../public/skills/tailwind.png";
 import typescriptImage from "../public/skills/typescript.png";
@@ -60,6 +61,7 @@ export default function Skills() {
 				/>
 				<Skill text={"Firebase"} directionLeft={true} image={firebaseImage} />
 				<Skill text={"Expo"} directionLeft={false} image={expoImage} />
+				<Skill text={"Sanity"} directionLeft={false} image={sanityLogo} />
 			</div>
 		</motion.div>
 	);
