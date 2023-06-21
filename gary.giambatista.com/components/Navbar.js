@@ -38,8 +38,14 @@ export default function Navbar() {
 					bgColor="transparent"
 					className="hover:scale-110"
 				/>
-				<SocialIcon
+				{/* <SocialIcon
 					url="https://www.facebook.com/gary.giambatista"
+					fgColor="white"
+					bgColor="transparent"
+					className="hover:scale-110"
+				/> */}
+				<SocialIcon
+					url="https://www.youtube.com/@csfornormalpeople2794"
 					fgColor="white"
 					bgColor="transparent"
 					className="hover:scale-110"

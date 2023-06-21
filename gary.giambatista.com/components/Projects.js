@@ -4,9 +4,10 @@ import Link from "next/link";
 import { list } from "postcss";
 import React from "react";
 import aiArtGeneratorPicture from "../public/Ai-art-generator-site.PNG";
-import esteemDemoPreview from "../public/esteemDemoPreview.PNG";
 import studyListPicture from "../public/StudyListPicture.JPG";
 import twitterDemoPic from "../public/Twitter-demo-pic3.PNG";
+import esteemDemoPreview from "../public/esteemDemoPreview.PNG";
+import katacard from "../public/katacard.png";
 
 export default function Projects() {
 	const projects = [
@@ -16,6 +17,13 @@ export default function Projects() {
 				"Currently under development, Esteem is a project started with a big dream, to improve the understanding and reasoning of the world by encouraging people to talk with those who share a different perspective than their own. Built with React Native, Expo, and Firebase.",
 			image: esteemDemoPreview,
 			link: "https://gary-giambatista.com/EsteemDemo",
+		},
+		{
+			title: "Katacard",
+			description:
+				"Built with Next.js 13.4 and React server components for my repetitive forgetfullness of the Katakana alphabet! Utilizes local storage, input validation, and map referencing to allow users to drill Katakana flashcards. Validates both hiragana and romaji and has 2 modes, allowing users to cycle through all letters, and to repeat failed letters. ",
+			image: katacard,
+			link: "https://katacard.vercel.app/",
 		},
 		{
 			title: "Study List",
