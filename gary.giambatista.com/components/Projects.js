@@ -4,6 +4,7 @@ import Link from "next/link";
 import { list } from "postcss";
 import React from "react";
 import aiArtGeneratorPicture from "../public/Ai-art-generator-site.PNG";
+import lifegoal from "../public/LifeGoal-overview.png";
 import studyListPicture from "../public/StudyListPicture.JPG";
 import twitterDemoPic from "../public/Twitter-demo-pic3.PNG";
 import esteemDemoPreview from "../public/esteemDemoPreview.PNG";
@@ -11,6 +12,13 @@ import katacard from "../public/katacard.png";
 
 export default function Projects() {
 	const projects = [
+		{
+			title: "LifeGoal",
+			description:
+				"Currently under development, LifeGoal is designed to help people set goals, and to remind them of those goals on a daily accord. Built for production with React Native, Expo, and Firebase.",
+			image: lifegoal,
+			link: "https://gary-giambatista.com/LifeGoal",
+		},
 		{
 			title: "Esteem Demo",
 			description:
